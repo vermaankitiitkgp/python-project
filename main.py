@@ -71,7 +71,7 @@ def run_phoenix():
                 print(info)
                 talk(info)
             except Exception as e:
-                print e
+                print (e)
                 talk('Sorry Dude, No info')
         elif 'date' in command:
             talk(datetime.date.today())
